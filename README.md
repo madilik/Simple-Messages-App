@@ -13,7 +13,8 @@
 Жобада екі бэкенд бар:
 - Python (Flask)
 - C# (ASP.NET Minimal API)
-Фронтенд (React) кез келгенімен жұмыс жасайды
+- Фронтенд (React) кез келгенімен жұмыс жасайды
+
 Бір уақытта **ТЕК БІР** ғана серверді іске қосыңыз
 
 ## Жоба құрылымы
@@ -78,7 +79,7 @@ http://localhost:3000
 ```
 cd backend-dotnet
 dotnet restore
-dotnet run
+dotnet run --project src\backend-dotnet --urls "http://localhost:5000"
 ```
 Бэкенд келесі адрес бойынша қол жетімді болады:
 ```
